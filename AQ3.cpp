@@ -188,6 +188,7 @@ public:
         return 1+max(leftDepth,rightDepth);
     }
 
+    
     int MinDepthBST(Node* node){
         if(!node) return 0;
         if(!node->left) return 1 + MinDepthBST(node->right);

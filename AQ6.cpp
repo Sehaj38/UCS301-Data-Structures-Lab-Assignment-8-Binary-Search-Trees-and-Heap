@@ -5,6 +5,7 @@ class PriorityQueue {
 private:
     int heap[100];
     int heapSize;
+    
 
     int parent(int i) { return (i - 1) / 2; }
     int left(int i) { return 2 * i + 1; }

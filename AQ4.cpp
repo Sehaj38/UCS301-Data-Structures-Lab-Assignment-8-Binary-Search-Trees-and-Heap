@@ -13,6 +13,7 @@ class Node{
         }
 };
 
+
 bool checkBST(Node* node, int minVal, int maxVal){
     if(!node) return true;
 
